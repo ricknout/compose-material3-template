@@ -18,16 +18,17 @@ private val LightColorScheme = lightColorScheme(
   tertiary = Pink40
 
   /* Other default colors to override
-    background = Color(red = 255, green = 251, blue = 254),
-    surface = Color(red = 255, green = 251, blue = 254),
+    background = Color(0xFFFFFBFE),
+    surface = Color(0xFFFFFBFE),
     onPrimary = Color.White,
     onSecondary = Color.White,
     onTertiary = Color.White,
-    onBackground = Color(red = 28, green = 27, blue = 31),
-    onSurface = Color(red = 28, green = 27, blue = 31),
+    onBackground = Color(0xFF1C1B1F),
+    onSurface = Color(0xFF1C1B1F),
     */
 )
 
+// TODO: Dynamic color support
 @Composable
 fun MyApplicationTheme(
   darkTheme: Boolean = isSystemInDarkTheme(),
