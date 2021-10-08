@@ -15,8 +15,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // Change the AndroidX snapshot build ID here eg. 7785106
-        maven { url 'https://androidx.dev/snapshots/builds/7785106/artifacts/repository' }
+        // Change the AndroidX snapshot build ID here eg. 7804795
+        maven { url 'https://androidx.dev/snapshots/builds/7804795/artifacts/repository' }
     }
 }
 rootProject.name = "My Application"
