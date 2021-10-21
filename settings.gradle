@@ -15,8 +15,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // Change the AndroidX snapshot build ID here eg. 7804795
-        maven { url 'https://androidx.dev/snapshots/builds/7804795/artifacts/repository' }
+        // Compose 1.1.0-beta01 snapshot
+        maven { url 'https://androidx.dev/snapshots/builds/7838202/artifacts/repository' }
+        // Compose Material 3 1.0.0-alpha01 snapshot
+        maven { url 'https://androidx.dev/snapshots/builds/7840506/artifacts/repository' }
     }
 }
 rootProject.name = "My Application"
